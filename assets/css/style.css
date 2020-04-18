@@ -1,0 +1,107 @@
+.icons{
+    overflow: hidden;
+}
+
+.icons ul{
+    padding:0;
+    margin:0;
+}
+ul li{
+    list-style-type: none;
+    float: left;
+    margin-right:10px;
+   
+}
+ul li:last-child{
+    margin-right:0;
+}
+ul li a{
+    background-image: url('../images/download.png');
+    width:39px;
+    height:39px;
+    background-repeat: no-repeat;
+    border:1px solid #000;
+    border-radius:50%;
+    background-position:0 0;
+    transition:1s ease;
+    display: inline-block;
+   
+
+}
+
+
+
+/* =========================ul li:hover:nth-child(1) a ===================== */
+
+ul li:hover:nth-child(1) a {
+    background-position: 0 -39px;
+}
+ul li:nth-child(2) a{
+    background-position:-78px 0;
+}
+
+ul li:nth-child(3) a{
+    background-position:-117px 0;
+}
+
+ul li:nth-child(4) a{
+    background-position:-156px 0;
+}
+ul li:nth-child(5) a{
+    background-position:-195px 0;
+}
+ul li:nth-child(6) a{
+    background-position:-234px 0;
+}
+ul li:nth-child(7) a{
+    background-position:-273px 0;
+}
+
+ul li:nth-child(8) a{
+    background-position:-312px 0;
+}
+ul li:nth-child(9) a{
+    background-position:-351px 0;
+}
+ul li:nth-child(10) a{
+    background-position:-390px 0;
+}
+/* =========================ul li:hover:nth-child(1) a ===================== */
+
+
+
+
+
+/*======================= ul li:hover:nth-child() a style =====================*/
+ul li:hover:nth-child(2) a{
+    background-position:-78px -39px;
+}
+ul li:hover:nth-child(3) a{
+    background-position: -117px -39px;
+}
+
+ul li:hover:nth-child(4) a{
+    background-position: -156px -39px;
+}
+ul li:hover:nth-child(5) a{
+    background-position: -195px -39px;
+}
+ul li:hover:nth-child(6) a{
+    background-position:-234px -39px
+}
+
+ul li:hover:nth-child(7) a{
+    background-position:-273px -39px
+}
+ul li:hover:nth-child(8) a{
+    background-position:-313px -39px
+}
+ul li:hover:nth-child(9) a{
+    background-position:-351px -39px
+}
+ul li:hover:nth-child(10) a{
+    background-position:-390px -39px
+}
+
+/*======================= ul li:hover:nth-child() a style =====================*/
+
